@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TPC-H Dimensional Modeling with dbt & Snowflake
 
 This project transforms the standard **Snowflake TPC-H Sample Dataset** (`SNOWFLAKE_SAMPLE_DATA.TPCH_SF1`) into a consumer-ready Star Schema. It leverages **dbt** to execute transformations using the **Medallion Architecture** (Bronze, Silver, Gold).
@@ -248,3 +249,6 @@ dbt-medallion/
 
 This project is licensed under the **MIT License**. See `LICENSE` for details.
 
+=======
+# dbt-medallion
+>>>>>>> 9236903a2c2cf0e68bfa3ce98d42e8447bdf5a85

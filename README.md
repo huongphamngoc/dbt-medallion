@@ -186,9 +186,13 @@ Navigate into the dbt project folder to install macros (e.g., `dbt_utils`) and b
 
 ```bash
 cd dbt_tpch
+```
 
+```bash
 dbt deps
+```
 
+```bash
 dbt build
 ```
 
@@ -202,7 +206,9 @@ To explore the data dictionary, column definitions, and lineage graphs visually:
 
 ```bash
 dbt docs generate
+```
 
+```bash
 dbt docs serve
 ```
 

@@ -132,7 +132,13 @@ Clone this repository and let `uv` automatically create your virtual environment
 
 ```bash
 git clone <YOUR_REPOSITORY_URL>
+```
+
+```bash
 cd dbt-medallion
+```
+
+```bash
 uv sync
 ```
 

@@ -32,6 +32,13 @@ models:
           - relationships:
               to: ref('dim_customers')
               field: customer_id
+      - name: part_id
+        description: "Foreign key linking to dim_parts."
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_parts')
+              field: part_id
       - name: extended_price
         description: "Gross price of the item."
         tests: [not_null, is_non_negative]

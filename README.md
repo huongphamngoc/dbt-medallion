@@ -160,7 +160,7 @@ Create or edit the file in your home directory:
 - **macOS/Linux:** `~/.dbt/profiles.yml`  
 - **Windows:** `C:\\Users\\<Your_Username>\\.dbt\\profiles.yml`
 
-> ⚠️ **Security Note:** Replace `<YOUR_PASSWORD>` with your actual Snowflake password for `ANPHAM1123`. **Never commit real credentials to GitHub.**
+> ⚠️ **Security Note:** Replace `<YOUR_PASSWORD>` with your actual Snowflake password for `HUONGPHAM7803`. **Never commit real credentials to GitHub.**
 
 ```yaml
 dbt_tpch:
@@ -173,7 +173,7 @@ dbt_tpch:
       schema: dbt_dev
       threads: 1
       type: snowflake
-      user: ANPHAM1123
+      user: HUONGPHAM7803
       warehouse: COMPUTE_WH
   target: dev
 ```
@@ -186,7 +186,9 @@ Navigate into the dbt project folder to install macros (e.g., `dbt_utils`) and b
 
 ```bash
 cd dbt_tpch
+
 dbt deps
+
 dbt build
 ```
 
@@ -200,6 +202,7 @@ To explore the data dictionary, column definitions, and lineage graphs visually:
 
 ```bash
 dbt docs generate
+
 dbt docs serve
 ```
 
@@ -247,7 +250,3 @@ dbt-medallion/
 ## License
 
 This project is licensed under the **MIT License**. See `LICENSE` for details.
-
-=======
-# dbt-medallion
->>>>>>> 9236903a2c2cf0e68bfa3ce98d42e8447bdf5a85

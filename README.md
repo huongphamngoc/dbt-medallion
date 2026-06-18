@@ -142,6 +142,9 @@ cd dbt-medallion
 uv sync
 ```
 
+```bash
+uv venv
+```
 ---
 
 ### 3) Activate the Virtual Environment
